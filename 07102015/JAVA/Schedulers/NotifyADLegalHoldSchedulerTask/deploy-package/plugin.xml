@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oimplugins>
+  <plugins pluginpoint="oracle.iam.scheduler.vo.TaskSupport">
+    <plugin pluginclass="com.iam.generic.scheduler.NotifyADLegalHoldScheduler"
+            version="1.0.0" name="Notify AD LegalHold Failures Scheduler">
+    </plugin>
+  </plugins>
+</oimplugins>

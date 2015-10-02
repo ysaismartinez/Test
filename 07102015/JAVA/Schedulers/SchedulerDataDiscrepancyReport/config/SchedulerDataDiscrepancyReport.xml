@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scheduledTasks  xmlns="http://xmlns.oracle.com/oim/scheduler">
+  <task>
+    <name>SchedulerDataDiscrepancyReport</name>
+    <class>com.ul.scheduletask.SchedulerDataDiscrepancyReport</class>
+    <description>Schedule task to generate Reports about EBS-OIM Data Discrepancy</description>
+    <retry>5</retry>
+    <parameters>
+     <string-param required="true" helpText="Files Location Path">File Location Path</string-param>
+     <string-param required="true" helpText="EBS Data File">EBS Data File</string-param>
+     <string-param required="true" helpText="OIM Data File">OIM Data File</string-param>
+     <string-param required="true" helpText="Output File">Output File</string-param>
+     </parameters>
+  </task>
+</scheduledTasks>

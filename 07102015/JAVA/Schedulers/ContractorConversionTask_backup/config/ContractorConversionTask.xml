@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
+   <task>
+      <name>Contractor Conversion Task</name>
+      <class>com.iam.generic.scheduler.IdentityTypeConversion</class>
+      <description>Contractor Conversion Task</description>
+      <retry>0</retry>
+      <parameters>
+          <string-param required="false" helpText="Lookup Name">Lookup Name</string-param>
+		  <string-param required="false" helpText="Email Template">Email Template</string-param>
+		  <string-param required="false" helpText="Service Now toEmail">Service Now toEmail</string-param>
+		  <string-param required="false" helpText="AD RO Name">AD RO Name</string-param>
+		  <string-param required="false" helpText="EBS RO Name">EBS RO Name</string-param>
+		  <string-param required="false" helpText="EBS Child Table">EBS Child Table</string-param>
+		  <string-param required="false" helpText="AD Child Table">AD Child Table</string-param>
+		  <string-param required="false" helpText="EBS Child Column">EBS Child Column</string-param>
+		  <string-param required="false" helpText="AD Child Column">AD Child Column</string-param>
+		  <string-param required="false" helpText="EBS Child Column Key">EBS Child Column Key</string-param>
+		  <string-param required="false" helpText="AD Child Column Key">AD Child Column Key</string-param>
+		  <string-param required="false" helpText="Contractor Lookup Name">Contractor Lookup Name</string-param>
+		  <string-param required="false" helpText="Contractor Lookup Code Key">Contractor Lookup Code Key</string-param>
+		  <string-param required="false" helpText="AD IT Resource">AD IT Resource</string-param>
+		  
+    </parameters>
+   </task>
+</scheduledTasks>

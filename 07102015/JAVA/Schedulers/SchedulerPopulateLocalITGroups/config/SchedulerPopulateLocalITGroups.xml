@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scheduledTasks  xmlns="http://xmlns.oracle.com/oim/scheduler">
+  <task>
+    <name>SchedulerPopulateLocalITGroups</name>
+    <class>com.ul.scheduletask.SchedulerPopulateLocalITGroups</class>
+    <description>Sample Schedule task to Populate Local IT groups from File</description>
+    <retry>5</retry>
+    <parameters>
+     <string-param required="true" helpText="Lookup Name">Lookup Name</string-param>
+     <string-param required="true" helpText="Server">Server</string-param>
+     <string-param required="true" helpText="FileName">FileName</string-param>
+     </parameters>
+  </task>
+</scheduledTasks>

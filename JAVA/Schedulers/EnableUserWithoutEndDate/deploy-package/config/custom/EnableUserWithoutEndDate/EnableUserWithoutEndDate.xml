@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
+   <task>
+      <name>Enable User Without End Date</name>
+      <class>com.iam.generic.scheduler.EnableUserWithoutEndDate</class>
+      <description>Enable User Without End Date</description>
+      <retry>0</retry>
+      <parameters>
+          
+    </parameters>
+   </task>
+</scheduledTasks>

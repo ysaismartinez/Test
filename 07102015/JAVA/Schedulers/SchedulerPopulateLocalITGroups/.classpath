@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_29"/>
+	<classpathentry kind="lib" path="D:/OIMLIB/iam-platform-context.jar"/>
+	<classpathentry kind="lib" path="D:/OIMLIB/iam-platform-kernel.jar"/>
+	<classpathentry kind="lib" path="D:/OIMLIB/iam-platform-utils.jar"/>
+	<classpathentry kind="lib" path="D:/OIMLIB/oimclient.jar"/>
+	<classpathentry kind="lib" path="D:/OIMLIB/xlAPI.jar"/>
+	<classpathentry kind="lib" path="D:/OIMLIB/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/OIMLIB/ojdl.jar"/>
+	<classpathentry kind="lib" path="D:/OIMLIB/OIMServer.jar"/>
+	<classpathentry kind="lib" path="D:/OIMLIB/mail.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

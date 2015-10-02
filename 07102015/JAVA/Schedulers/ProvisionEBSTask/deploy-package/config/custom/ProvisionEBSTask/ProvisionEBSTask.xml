@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
+   <task>
+      <name>Provision EBusiness Account Task</name>
+      <class>com.iam.generic.scheduler.ProvisionEBSTask</class>
+      <description>Provision EBusiness Account Task</description>
+      <retry>0</retry>
+      <parameters>
+          
+          <string-param required="true" helpText="No Of Day">No Of Day</string-param>
+		  <string-param required="true" helpText="Application Instance Name without space">Application Instance Name</string-param>
+		  <string-param required="true" helpText="serverName">serverName</string-param>
+    </parameters>
+   </task>
+</scheduledTasks>

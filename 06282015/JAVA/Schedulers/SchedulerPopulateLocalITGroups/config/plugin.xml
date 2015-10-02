@@ -1,0 +1,5 @@
+<oimplugins xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <plugins pluginpoint="oracle.iam.scheduler.vo.TaskSupport">
+        <plugin pluginclass="com.ul.scheduletask.SchedulerPopulateLocalITGroups" version="1.0" name="SchedulerPopulateLocalITGroups"/>
+    </plugins>
+</oimplugins>

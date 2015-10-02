@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
+   <task>
+      <name>Reminder Email for Duplicate ID</name>
+      <class>com.iam.generic.scheduler.ReminderDuplicateID</class>
+      <description>Reminder Email for Duplicate ID</description>
+      <retry>5</retry>
+      <parameters>
+          
+          <string-param required="false" helpText="Lookup Name">Lookup Name</string-param>
+		  <string-param required="false" helpText="Email Template">Email Template</string-param>
+		  
+    </parameters>
+   </task>
+</scheduledTasks>

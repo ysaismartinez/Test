@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scheduledTasks  xmlns="http://xmlns.oracle.com/oim/scheduler">
+  <task>
+    <name>SchedulerRemoveEmail</name>
+    <class>com.ul.scheduletask.SchedulerRemoveEmail</class>
+    <description>Sample Schedule task to remove Emails after 15 days of User Expiry</description>
+    <retry>5</retry>
+     <parameters>
+     <string-param required="true" helpText="Number Of Days">Number Of Days</string-param>
+     </parameters>
+  </task>
+</scheduledTasks>

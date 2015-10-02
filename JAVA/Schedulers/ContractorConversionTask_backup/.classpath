@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry path="src" kind="src"/>
+	<classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER" kind="con"/>
+	<classpathentry path="C:/UL/lib/oimclient.jar" kind="lib"/>
+	<classpathentry path="C:/UL/lib/OIMServer.jar" kind="lib"/>
+	<classpathentry path="C:/UL/lib/ojdl.jar" kind="lib"/>
+	<classpathentry path="C:/PST/WSClient/mail.jar" kind="lib"/>
+	<classpathentry path="C:/UL/lib/commons-lang-2.4.jar" kind="lib"/>
+	<classpathentry path="classes" kind="output"/>
+</classpath>

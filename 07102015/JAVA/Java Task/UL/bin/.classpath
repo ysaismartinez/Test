@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry path="" kind="src"/>
+	<classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER" kind="con"/>
+	<classpathentry path="C:/UL/lib/oimclient.jar" kind="lib"/>
+	<classpathentry path="C:/PST/WSClient/mail.jar" kind="lib"/>
+	<classpathentry path="C:/UL/lib/Common.jar" kind="lib"/>
+	<classpathentry path="C:/UL/lib/ojdl.jar" kind="lib"/>
+	<classpathentry path="C:/UL/lib/xlDataObjects.jar" kind="lib"/>
+	<classpathentry path="C:/UL/lib/commons-lang-2.4.jar" kind="lib"/>
+	<classpathentry path="bin" kind="output"/>
+</classpath>

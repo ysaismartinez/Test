@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scheduledTasks  xmlns="http://xmlns.oracle.com/oim/scheduler">
+  <task>
+    <name>SchedulerPopulateADLocation</name>
+    <class>com.ul.scheduletask.SchedulerPopulateADLocation</class>
+    <description>ScheduleTask to Populate AD locations into OIM lookup</description>
+    <retry>5</retry>
+     <parameters>
+     <string-param required="true" helpText="Lookup Name">Lookup Name</string-param>
+      <string-param required="true" helpText="Server">Server</string-param>
+      <string-param required="true" helpText="FileName">FileName</string-param>
+      <string-param required="true" helpText="IT Resource Name">IT Resource Name</string-param>
+      </parameters>
+   </task>
+</scheduledTasks>

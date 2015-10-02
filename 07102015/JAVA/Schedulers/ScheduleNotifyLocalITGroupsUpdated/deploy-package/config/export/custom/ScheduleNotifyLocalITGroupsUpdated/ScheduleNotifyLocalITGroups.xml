@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
+<task>
+<name>SchedulerNotifyLocalITGroups</name>
+<class>com.ul.scheduletask.SchedulerNotifyLocalITGroups</class>
+<description>Schedule task to notify Local IT groups about New users</description>
+<retry>5</retry>
+<parameters>
+<string-param required="true" encrypted="false" helpText="IAM Admin Group Email Address">IAM Admin Group Email Address</string-param>
+<string-param required="true" helpText="Number Of Days">Number Of Days</string-param>
+</parameters>
+</task>
+</scheduledTasks>

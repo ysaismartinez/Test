@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oimplugins>
+  <plugins pluginpoint="oracle.iam.scheduler.vo.TaskSupport">
+    <plugin pluginclass="com.iam.generic.scheduler.ReminderDuplicateID"
+            version="1.0.0" name="Reminder Email for Duplicate ID">
+    </plugin>
+  </plugins>
+</oimplugins>

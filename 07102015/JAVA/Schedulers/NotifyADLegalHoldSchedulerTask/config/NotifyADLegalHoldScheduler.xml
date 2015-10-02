@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
+	<task>
+		<name>Notify AD LegalHold  Scheduler</name>
+		<class>com.iam.generic.scheduler.NotifyADLegalHoldScheduler</class>
+		<description>Notify AD LegalHold  Scheduler</description>
+		<retry>0</retry>
+		<parameters>
+			<string-param required="true" encrypted="false" helpText="Failed Task Lookups separated by Pipeline">Failed Task Lookups</string-param>
+			<string-param required="true" encrypted="false" helpText="Recipient Email Address">Recipient Email Address</string-param>
+			<string-param required="true" encrypted="false" helpText="Filter String">Filter String</string-param>
+		</parameters>
+	</task>
+</scheduledTasks>
