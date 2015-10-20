@@ -1,5 +1,6 @@
 package com.ul.eventhandlers;
 
+
 import java.io.Serializable;
 import java.util.Date;
 import java.text.DateFormat;
@@ -324,6 +325,8 @@ public class EmployeeConversionTasks implements PostProcessHandler{
 		    	  LOGGER.info(classname + methodName+ "----->>>>        " + "[UL.EmployeeConversion]:[isAttributeModified]: " + fieldName + ": Attributes Not Modified ");
 
 		        return false;
+
+
 		      }
 		      if ((newObj == null) || (oldObj == null))
 		      {
